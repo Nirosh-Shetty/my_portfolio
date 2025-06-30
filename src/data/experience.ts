@@ -2,35 +2,36 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
   {
-    title: "Software Developer",
+    title: "Academic Trainee",
     organisation: {
-      name: "Skima",
-      href: "https://skima.ai/",
+      name: "HCLTech",
+      href: "https://www.hcltech.com/",
     },
-    date: "Oct 2023 - Present",
-    location: "Mumbai",
-    description: "Reactjs and Nextjs app development",
-  },
-  {
-    title: "Engineering Trainee",
-    organisation: {
-      name: "Hexaware",
-      href: "https://hexaware.com/",
-    },
-    date: "July 2023 - Sep 2023",
+    date: "Apr 2025 – Present",
     location: "Remote",
     description:
-      "Learned to work we monorepo and got to learn application architecture, scalling and build tooling to improve CI/CD of micro services.",
+      "Training in STLC, SDLC, and Python. Working in Agile using Jira for task tracking and sprint management.",
   },
   {
-    title: "Frontend Developer Intern",
+    title: "Software Engineer Intern",
     organisation: {
-      name: "Master Infotech",
-      href: "https://masterinfotech.com/",
+      name: "DealsDray",
+      href: "https://dealsdray.com/",
     },
-    date: "Winter - 2022",
+    date: "Nov 2024 – Jan 2025",
     location: "Remote",
     description:
-      "Worked on a team responsible for developing new features and updating old codebases to latest technologies. Learned alot about web development and CI/CD development cycle.",
+      "Worked on Prexo and DealsDray apps using MERN stack. Used Studio3T, SVN, MUI. Fixed bugs and optimized performance.",
+  },
+  {
+    title: "Front-End Developer Intern",
+    organisation: {
+      name: "Compsoft Technology",
+      href: "https://www.compsofttechnologies.com/",
+    },
+    date: "Oct 2023 – Nov 2023",
+    location: "Remote",
+    description:
+      "Developed frontend for an electronics e-commerce site using React and TailwindCSS.",
   },
 ];
