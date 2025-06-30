@@ -30,7 +30,7 @@ export default function ProjectShowcase(props: ProjectShowcaseProps) {
   };
 
   return (
-    <section className="overflow-hidden px-6 py-32 sm:px-14 md:px-20">
+    <section className="overflow-hidden px-6 pb-32 sm:px-14 md:px-20">
       <div className="relative mx-auto max-w-7xl">
         <div className="relative right-0 top-0 hidden lg:block">
           <AnimatePresence>
@@ -75,7 +75,7 @@ export default function ProjectShowcase(props: ProjectShowcaseProps) {
         <h2 className="text-xl font-semibold text-accent sm:text-3xl">
           My projects
         </h2>
-        <div className="hidden flex-col gap-6 py-14 sm:gap-8 sm:py-20 md:gap-10 lg:flex">
+        <div className="hidden  flex-col gap-6 py-14 sm:gap-8 sm:py-20 md:gap-10 lg:flex lg:w-1/2">
           {props.projects.map((proj, index) => (
             <ProjectShowcaseList
               activeProject={currentImage}
