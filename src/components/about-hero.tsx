@@ -10,10 +10,11 @@ import DuotoneImage from "./duotone-image";
 
 export default function AboutHero() {
   return (
-    <div className="mx-auto mt-0 flex max-w-7xl flex-col items-center gap-6 px-6 pt-20 text-center sm:px-14 md:mt-20 md:px-20 lg:mt-0 lg:flex-row lg:text-left">
-      {/* old */}
-      {/* <div className="w-full sm:w-1/2 md:w-2/3 lg:inline-block lg:h-full lg:w-1/2"> */}
+    <div className="mx-auto mt-0 flex max-w-7xl flex-col items-center gap-6 px-6 pt-0 text-center sm:px-14 md:mt-20 md:px-20 lg:mt-0 lg:flex-row lg:text-left">
       <div className="w-full sm:w-1/2 md:w-2/3 lg:inline-block lg:h-full lg:w-2/5">
+        {/* old */}
+        {/* <div className="mx-auto mt-0 flex max-w-7xl flex-col items-center gap-6 px-6 pt-20 text-center sm:px-14 md:mt-20 md:px-20 lg:mt-0 lg:flex-row lg:text-left"> */}
+        {/* <div className="w-full sm:w-1/2 md:w-2/3 lg:inline-block lg:h-full lg:w-1/2"> */}
         <AnimatePresence>
           <FadeUp key="hero-image" duration={0.6}>
             <DuotoneImage
