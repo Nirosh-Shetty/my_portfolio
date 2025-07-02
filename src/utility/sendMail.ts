@@ -39,7 +39,6 @@ export const sendMail = async function (
         console.error("Error sending mail:", error);
         resolve({ status: 500, message: "Failed to send mail" });
       } else {
-        console.log("Mail sent successfully");
         resolve({ status: 200, message: "Mail send successfully" });
       }
     });
