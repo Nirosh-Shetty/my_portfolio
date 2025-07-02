@@ -75,7 +75,7 @@ export default function ProjectShowcase(props: ProjectShowcaseProps) {
         <h2 className="text-xl font-semibold text-accent sm:text-3xl">
           My projects
         </h2>
-        <div className="hidden  flex-col gap-6 py-14 sm:gap-8 sm:py-20 md:gap-10 lg:flex lg:w-1/2">
+        <div className="hidden flex-col gap-6 py-14 sm:gap-8 sm:py-20 md:gap-10 lg:flex lg:w-1/2">
           {props.projects.map((proj, index) => (
             <ProjectShowcaseList
               activeProject={currentImage}
@@ -93,14 +93,17 @@ export default function ProjectShowcase(props: ProjectShowcaseProps) {
               className="flex flex-col gap-1"
             >
               <div className="flex gap-2">
-                <span className="text-3xl font-semibold text-accent transition-colors duration-300 sm:text-4xl md:text-5xl lg:hidden">
+                {/* <span className="text-xl font-semibold text-accent transition-colors duration-300 sm:text-2xl md:text-3xl lg:hidden">
                   {proj.index + 1}.
                 </span>
                 <span
                   key={proj.title}
-                  className="-underline-offset-1 text-3xl font-semibold text-accent underline transition-colors duration-300 sm:text-4xl md:text-5xl lg:hidden"
+                  className="-underline-offset-1 text-xl font-semibold text-accent underline transition-colors duration-300 sm:text-2xl md:text-3xl lg:hidden"
                 >
                   {proj.title}
+                </span> */}
+                <span className="-underline-offset-1 text-xl font-semibold text-accent no-underline transition-colors duration-300 sm:text-2xl  md:text-3xl lg:hidden">
+                  {proj.index + 1}. {proj.title}
                 </span>
               </div>
               <p className="flex max-w-xl flex-wrap gap-2 text-base font-semibold text-accent-foreground sm:text-lg">

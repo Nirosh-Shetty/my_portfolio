@@ -2,36 +2,36 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EDUCATION: ExperienceShowcaseListItemProps[] = [
   {
-    title: "Bachelor Of Engineering in Electronics and Telecommunication",
+    title: "Bachelor of Engineering in Information Science and Engineering",
     organisation: {
-      name: "Rizvi College Of Engineering",
-      href: "https://eng.rizvi.edu.in/",
+      name: "Atria Institute of Technology (VTU)",
+      href: "https://atria.edu/",
     },
-    date: "2019-2023",
-    location: "Bandra, Mumbai",
+    date: "2021 – 2025",
+    location: "Bengaluru, Karnataka",
     description:
-      "Relevant courses included Data Structures and Algorithms, Web Design, Cloud Computing, Artificial Neural Network and Database Management.",
+      "Focused on software engineering, web technologies, and full-stack development. CGPA: 7.75",
   },
   {
-    title: "Higher Secondary School",
+    title: "Pre-University Course (Class XII) – Science",
     organisation: {
-      name: "Mithibai College",
-      href: "https://www.mithibai.ac.in/",
+      name: "RNS PU College",
+      href: "https://www.rnspucollege.com/",
     },
-    date: "2016-2018",
-    location: "Vile Parle, Mumbai",
+    date: "2019 – 2021",
+    location: "Udupi, Karnataka",
     description:
-      "Completed the course in Electronics Bifocal Science with 68%. Started freelancing making 3D assets for games. Got interested in game development and learned unity and c#",
+      "Completed KSEEB Class XII with 92%. Developed interest in computer science and problem solving.",
   },
   {
-    title: "Secondary School Education",
+    title: "Secondary School (Class X)",
     organisation: {
-      name: "Holy Family High School",
-      href: "https://holyfamilyandheri.org/",
+      name: "GHS Siddapura",
+      href: "#", // No website listed in resume
     },
-    date: "2017-2018",
-    location: "Andheri, Mumbai",
+    date: "2016 – 2019",
+    location: "Udupi, Karnataka",
     description:
-      "Learned good values,dedication and disciplne. Played district football for 5 years.",
+      "Completed KSEEB Class X with 88%. Built strong academic foundation and discipline.",
   },
 ];

@@ -30,7 +30,7 @@ export default function ProjectShowcaseList(props: ProjectShowcaseListProps) {
     >
       <span
         className={classNames(
-          "hidden text-6xl font-semibold transition-colors duration-300 lg:block",
+          "hidden text-3xl font-semibold transition-colors duration-300 lg:block",
           props.activeProject === props.data.index
             ? "text-accent"
             : "text-accent/70",
@@ -45,7 +45,7 @@ export default function ProjectShowcaseList(props: ProjectShowcaseListProps) {
         <Link href={props.data.href} className="relative max-w-max">
           <span
             className={classNames(
-              "hidden text-6xl font-semibold transition-colors duration-300 lg:block",
+              "hidden text-3xl font-semibold transition-colors duration-300 lg:block",
               props.activeProject === props.data.index
                 ? "text-accent"
                 : "text-accent/70",

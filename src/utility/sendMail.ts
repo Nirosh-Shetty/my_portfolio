@@ -9,7 +9,10 @@ export const sendMail = async function (
   const user = process.env.NODEMAILER_USER;
   const pass = process.env.NODEMAILER_PASS;
 
-  if (!user && !pass) {
+  if (!user || !pass) {
+    console.error(
+      "Nodemailer credentials are not set in environment variables.",
+    );
     return new Promise((resolve) =>
       resolve({ status: 500, message: "Internal server error" }),
     );
@@ -33,8 +36,10 @@ export const sendMail = async function (
   return new Promise((resolve) => {
     transporter.sendMail(mailOptions, (error) => {
       if (error) {
+        console.error("Error sending mail:", error);
         resolve({ status: 500, message: "Failed to send mail" });
       } else {
+        console.log("Mail sent successfully");
         resolve({ status: 200, message: "Mail send successfully" });
       }
     });
