@@ -8,7 +8,7 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
       href: "https://www.hcltech.com/",
     },
     date: "Apr 2025 – Present",
-    location: "Remote",
+    location: "On-Site",
     description:
       "Training in STLC, SDLC, and Python. Working in Agile using Jira for task tracking and sprint management.",
   },
@@ -19,7 +19,7 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
       href: "https://dealsdray.com/",
     },
     date: "Nov 2024 – Jan 2025",
-    location: "Remote",
+    location: "On-site",
     description:
       "Worked on Prexo and DealsDray apps using MERN stack. Used Studio3T, SVN, MUI. Fixed bugs and optimized performance.",
   },

@@ -13,7 +13,7 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
       "Focused on software engineering, web technologies, and full-stack development. CGPA: 7.75",
   },
   {
-    title: "Pre-University Course (Class XII) – Science",
+    title: "Pre-University Course (Class XII) – Science (PCMC)",
     organisation: {
       name: "RNS PU College",
       href: "https://www.rnspucollege.com/",

@@ -17,7 +17,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     index: 1,
     title: "College Academic Management",
     href: "/projects",
-    tags: ["MERN Stack", "MUI", "TailwindCSS", "RBAC"],
+    tags: ["MERN Stack", "MUI", "TailwindCSS"],
     image: {
       LIGHT: "/images/projects/manyGamesLight.webp",
       DARK: "/images/projects/manyGamesDark.webp",
