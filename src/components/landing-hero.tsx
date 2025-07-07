@@ -39,6 +39,10 @@ export default function LandingHero() {
           <AnimatePresence>
             <FadeUp key="title-main" duration={0.6}>
               <h1 className="bg-accent bg-clip-text py-2 text-5xl font-bold text-transparent sm:text-6xl md:text-7xl xl:text-8xl">
+                <span className="  text-zinc-900 dark:text-zinc-200">
+                  {" "}
+                  Hi, I&apos;m{" "}
+                </span>{" "}
                 Nirosh Shetty
               </h1>
               <span className="text-xl font-semibold text-zinc-900 dark:text-zinc-100 md:text-3xl">
