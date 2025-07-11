@@ -52,17 +52,23 @@ export default function LandingHero() {
             <FadeUp key="description" duration={0.6} delay={0.2}>
               <div className="mt-8 max-w-3xl text-base font-semibold text-zinc-900 dark:text-zinc-200 sm:text-base md:text-xl">
                 <button
-                  aria-label="open send mail modal"
+                  // aria-label="open send mail modal"
                   type="button"
                   className="flex h-10 w-40 items-center justify-center rounded-lg bg-accent p-2 text-background transition-colors duration-150 hover:bg-accent/80 sm:bottom-8 sm:right-8 sm:h-10 sm:w-20 sm:p-3 lg:h-10 lg:w-40"
                 >
                   Find me on
                 </button>
+                <button
+                  // aria-label="open send mail modal"
+                  type="button"
+                  className="flex h-10 w-10 items-center justify-center rounded-lg bg-accent p-2 text-background transition-colors duration-150 hover:bg-accent/80 sm:bottom-8 sm:right-8 sm:h-10 sm:w-20 sm:p-3 lg:h-10 lg:w-10"
+                >
+                  D
+                </button>
                 <br></br>I am a software developer specializing in building
                 high-performance, user-focused web applications. Skilled in{" "}
                 <span className="font-semibold text-accent">ReactJS</span>,{" "}
-                <span className="font-semibold text-accent">NextJS</span>,{" "}
-                <span className="font-semibold text-accent">SolidJS</span>, and
+                <span className="font-semibold text-accent">NextJS</span>, and
                 an expert in{" "}
                 <span className="font-semibold text-accent">JavaScript</span>,{" "}
                 <span className="font-semibold text-accent">HTML</span> and{" "}
