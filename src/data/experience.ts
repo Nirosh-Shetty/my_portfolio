@@ -29,7 +29,7 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
       name: "Compsoft Technology",
       href: "https://www.compsofttechnologies.com/",
     },
-    date: "Oct 2023 – Nov 2023",
+    date: "Oct 2023 – Dec 2023",
     location: "Remote",
     description:
       "Developed frontend for an electronics e-commerce site using React and TailwindCSS.",
