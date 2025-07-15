@@ -19,8 +19,9 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     href: "/projects",
     tags: ["MERN Stack", "MUI", "TailwindCSS"],
     image: {
-      LIGHT: "/images/projects/manyGamesLight.webp",
-      DARK: "/images/projects/manyGamesDark.webp",
+      LIGHT:
+        "/images/projects/AcademicManagementSystem/AcademicAdminDashboardLight.webp",
+      DARK: "/images/projects/AcademicManagementSystem/AcademicAdminDashboardDark.webp",
     },
   },
   {
@@ -52,11 +53,12 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     name: "College Academic Management",
     favicon: "/images/projects/logos/manygames.ico",
     imageUrl: [
-      "/images/projects/manyGamesDark.webp",
-      "/images/projects/manyGamesLight.webp",
-      "/images/projects/manyGames2048.webp",
-      "/images/projects/manyGamesPuzzle.webp",
-      "/images/projects/manyGamesWordle.webp",
+      "/images/projects/AcademicManagementSystem/AcademicAdminDashboardLight.webp",
+      "/images/projects/AcademicManagementSystem/AcademicAttendance.webp",
+      "/images/projects/AcademicManagementSystem/AcademicStaffDashBoard.webp",
+      "/images/projects/AcademicManagementSystem/AcademicQuizResult.webp",
+      "/images/projects/AcademicManagementSystem/AcademicPlacement.webp",
+      "/images/projects/AcademicManagementSystem/AcademicRoleSelect.webp",
     ],
     description:
       "A full-featured academic platform using the MERN stack, MUI, and TailwindCSS. Includes RBAC, attendance, quiz, events, placements, and performance tracking.",

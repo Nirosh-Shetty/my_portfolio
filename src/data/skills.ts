@@ -1,5 +1,5 @@
 import { SiExpress, SiNextdotjs } from "react-icons/si";
-import { FramerMotionIcon, ReactRouterDomIcon } from "@/components/icons";
+import { FramerMotionIcon } from "@/components/icons";
 import { type SkillsShowcaseProps } from "@/components/skills/skills-showcase";
 
 // Languages
@@ -15,7 +15,7 @@ import ReactjsSvg from "@/public/icons/reactjs.svg";
 import ReduxSvg from "@/public/icons/redux.svg";
 import TailwindcssSvg from "@/public/icons/tailwindcss.svg";
 import MuiSvg from "@/public/icons/mui.svg";
-import ViteSvg from "@/public/icons/vite.svg";
+import JiraSvg from "@/public/icons/jira.svg";
 
 // Backend
 import NodejsSvg from "@/public/icons/nodejs.svg";
@@ -147,8 +147,8 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
     sectionName: "Tools and Technologies",
     skills: [
       {
-        name: "Git",
-        icon: GitSvg,
+        name: "Jira",
+        icon: JiraSvg,
       },
 
       {
@@ -158,6 +158,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "Figma",
         icon: FigmaSvg,
+      },
+      {
+        name: "Git",
+        icon: GitSvg,
       },
     ],
   },

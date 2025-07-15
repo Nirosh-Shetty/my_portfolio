@@ -10,7 +10,7 @@ export const siteMetadata = {
   siteRepo: "https://github.com/Nirosh-Shetty/my_portfolio",
   siteLogo: "/favicon.ico",
   image: "/static/homepage.png",
-  twitterImage: "/static/homepage.png",
+  // twitterImage: "/static/homepage.png",
   socialBanner: "/static/homepage.png",
   email: "niroshshetty2020@gmail.com",
   github: "https://github.com/Nirosh-Shetty",
