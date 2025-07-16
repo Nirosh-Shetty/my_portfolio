@@ -78,7 +78,7 @@ export default function Corosel({ aspectRatio = 1, images }: CoroselProps) {
       </AnimatePresence>
       <div className="absolute bottom-0 flex h-12 w-full items-center justify-center gap-2">
         <button
-          onClick={() => paginate(1)}
+          onClick={() => paginate(-1)}
           className="hidden h-4 w-4 lg:inline-block"
         >
           <BiSolidLeftArrow className="fill-zinc-700 dark:fill-zinc-400" />
@@ -95,7 +95,7 @@ export default function Corosel({ aspectRatio = 1, images }: CoroselProps) {
           ></span>
         ))}
         <button
-          onClick={() => paginate(-1)}
+          onClick={() => paginate(1)}
           className="hidden h-4 w-4 lg:inline-block"
         >
           <BiSolidLeftArrow className="rotate-180 fill-zinc-700 dark:fill-zinc-400" />
