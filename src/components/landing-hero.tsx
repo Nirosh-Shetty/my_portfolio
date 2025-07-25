@@ -163,7 +163,17 @@ export const letterVariants = {
   visible: { opacity: 1, transition: { duration: 0 } },
 };
 
-export const Typewriter = ({ text, loopDelay = 2000, ...rest }) => {
+type TypewriterProps = {
+  text: string;
+  loopDelay?: number;
+  [key: string]: any;
+};
+
+export const Typewriter = ({
+  text,
+  loopDelay = 2000,
+  ...rest
+}: TypewriterProps) => {
   const controls = useAnimationControls();
 
   useEffect(() => {
