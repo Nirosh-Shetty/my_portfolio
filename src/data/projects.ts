@@ -9,8 +9,8 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     href: "/projects",
     tags: ["PERN Stack", "JWT", "MUI", "Chart.js"],
     image: {
-      LIGHT: "/images/projects/jsontreeLight.webp",
-      DARK: "/images/projects/jsontreeDark.webp",
+      LIGHT: "/images/projects/PersonalFinance/FinanceStats.webp",
+      DARK: "/images/projects/PersonalFinance/FinanceStats.webp",
     },
   },
   {
@@ -41,8 +41,13 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     name: "Personal Finance",
     favicon: "/images/projects/logos/jsontree.ico",
     imageUrl: [
-      "/images/projects/jsontreeLight.webp",
-      "/images/projects/jsontreeDark.webp",
+      "/images/projects/PersonalFinance/FinanceStats.webp",
+      "/images/projects/PersonalFinance/FinanceAddExpense.webp",
+      "/images/projects/PersonalFinance/FinanceAddIncome.webp",
+      "/images/projects/PersonalFinance/FinanceTransactionLog.webp",
+      "/images/projects/PersonalFinance/FinanceBlog2.webp",
+      // "/images/projects/PersonalFinance/FinanceBlogDetailed.webp",
+      "/images/projects/PersonalFinance/FinanceProfile.webp",
     ],
     description:
       "Built a money manager app using the PERN stack. JWT for auth, Chart.js for insights, and MUI for UI. Features include transaction tracking, charts, and a finance blog.",
