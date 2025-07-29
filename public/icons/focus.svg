@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg width="800px" height="800px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<style>.cls-1{fill:#b24040;}.cls-2{fill:#ce5959;}.cls-3{fill:#eaeaea;}.cls-4{fill:url(#linear-gradient);}.cls-5{fill:url(#linear-gradient-2);}.cls-6{fill:url(#linear-gradient-4);}.cls-7{fill:#6c2e7c;}</style>
+<linearGradient gradientUnits="userSpaceOnUse" id="linear-gradient" x1="12" x2="12" y1="0.255" y2="22.994">
+<stop offset="0" stop-color="#f2f2f2"/>
+<stop offset="1" stop-color="#dbdbdb"/>
+</linearGradient>
+<linearGradient id="linear-gradient-2" x1="3" x2="3" xlink:href="#linear-gradient" y1="0.255" y2="22.994"/>
+<linearGradient id="linear-gradient-4" x1="21" x2="21" xlink:href="#linear-gradient" y1="0.255" y2="22.994"/>
+</defs>
+<g id="Icons">
+<path class="cls-1" d="M21,12A9,9,0,0,1,3,12a8.637,8.637,0,0,1,.36-2.5,8.992,8.992,0,0,1,17.28,0A8.637,8.637,0,0,1,21,12Z"/>
+<ellipse class="cls-2" cx="12" cy="9.5" rx="8.64" ry="6.5"/>
+<circle class="cls-3" cx="12" cy="12" r="2"/>
+<path class="cls-4" d="M12,6a1,1,0,0,1-1-1V1a1,1,0,0,1,2,0V5A1,1,0,0,1,12,6Z"/>
+<path class="cls-5" d="M5,13H1a1,1,0,0,1,0-2H5a1,1,0,0,1,0,2Z"/>
+<path class="cls-4" d="M12,24a1,1,0,0,1-1-1V19a1,1,0,0,1,2,0v4A1,1,0,0,1,12,24Z"/>
+<path class="cls-6" d="M23,13H19a1,1,0,0,1,0-2h4a1,1,0,0,1,0,2Z"/>
+</g>
+<g data-name="Layer 4" id="Layer_4">
+<path class="cls-7" d="M23,11H21.949A10.015,10.015,0,0,0,13,2.051V1a1,1,0,0,0-2,0V2.051A10.015,10.015,0,0,0,2.051,11H1a1,1,0,0,0,0,2H2.051A10.015,10.015,0,0,0,11,21.949V23a1,1,0,0,0,2,0V21.949A10.015,10.015,0,0,0,21.949,13H23a1,1,0,0,0,0-2ZM13,19.931V19a1,1,0,0,0-2,0v.931A8.008,8.008,0,0,1,4.069,13H5a1,1,0,0,0,0-2H4.069A8.008,8.008,0,0,1,11,4.069V5a1,1,0,0,0,2,0V4.069A8.008,8.008,0,0,1,19.931,11H19a1,1,0,0,0,0,2h.931A8.008,8.008,0,0,1,13,19.931Z"/>
+<path class="cls-7" d="M12,9a3,3,0,1,0,3,3A3,3,0,0,0,12,9Zm0,4a1,1,0,1,1,1-1A1,1,0,0,1,12,13Z"/>
+</g>
+</svg>

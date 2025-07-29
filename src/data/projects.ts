@@ -51,8 +51,8 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     ],
     description:
       "Built a money manager app using the PERN stack. JWT for auth, Chart.js for insights, and MUI for UI. Features include transaction tracking, charts, and a finance blog.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/personal-finance", // update with real link
-    liveWebsiteHref: "https://personal-finance.vercel.app", // update with real URL
+    sourceCodeHref: "https://github.com/Nirosh-Shetty/Personal-Finance", // update with real link
+    // liveWebsiteHref: "https://personal-finance.vercel.app", // update with real URL
   },
   {
     name: "College Academic Management",
@@ -67,8 +67,8 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     ],
     description:
       "A full-featured academic platform using the MERN stack, MUI, and TailwindCSS. Includes RBAC, attendance, quiz, events, placements, and performance tracking.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/college-management", // update with real link
-    liveWebsiteHref: "https://college-management.vercel.app", // update with real URL
+    sourceCodeHref: "https://github.com/Nirosh-Shetty/information-science-dept", // update with real link
+    // liveWebsiteHref: "https://college-management.vercel.app", // update with real URL
   },
   {
     name: "Anonymous Messenger",
@@ -80,8 +80,8 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     ],
     description:
       "Send and receive anonymous messages securely. Built with MERN, Next.js, TypeScript, Zod for schema validation, and NextAuth for authentication.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/anonymous-messenger", // update with real link
-    liveWebsiteHref: "https://anonymous-messenger.vercel.app", // update with real URL
+    sourceCodeHref: "https://github.com/Nirosh-Shetty/Anonymous-Messenger", // update with real link
+    // liveWebsiteHref: "https://anonymous-messenger.vercel.app", // update with real URL
   },
   {
     name: "My portfolio",

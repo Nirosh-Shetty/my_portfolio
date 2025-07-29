@@ -32,6 +32,12 @@ import AwsSvg from "@/public/icons/aws.svg";
 import PostmanSvg from "@/public/icons/postman.svg";
 import FigmaSvg from "@/public/icons/figma.svg";
 
+//non-technical skills
+import DisciplineSVG from "@/public/icons/discipline.svg";
+import FocusSvg from "@/public/icons/focus.svg";
+import EagernessToLearnSvg from "@/public/icons/eagerness-to-learn.svg";
+import TeamPlayerSvg from "@/public/icons/team-player.svg";
+
 export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
   {
     sectionName: "Languages",
@@ -170,19 +176,20 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
     skills: [
       {
         name: "Discipline",
-        icon: MongoDBSvg,
+        icon: DisciplineSVG,
       },
       {
         name: "Focus",
-        icon: PostgressSvg,
+        icon: FocusSvg,
+      },
+
+      {
+        name: "Team Player",
+        icon: TeamPlayerSvg,
       },
       {
         name: "Eagerness to Learn",
-        icon: MongoDBSvg,
-      },
-      {
-        name: "Team Player",
-        icon: PostgressSvg,
+        icon: EagernessToLearnSvg,
       },
     ],
   },

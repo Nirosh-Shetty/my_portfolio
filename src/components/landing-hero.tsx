@@ -175,12 +175,13 @@ export const Typewriter = ({
   ...rest
 }: TypewriterProps) => {
   const controls = useAnimationControls();
+  const isMountedRef = useRef(true);
 
   useEffect(() => {
-    let isMounted = true;
+    isMountedRef.current = true;
 
     const loopAnimation = async () => {
-      while (isMounted) {
+      while (isMountedRef.current) {
         await controls.start("visible");
         await new Promise((res) => setTimeout(res, loopDelay));
         await controls.start("hidden");
@@ -188,13 +189,12 @@ export const Typewriter = ({
       }
     };
 
-    // Defer execution to next tick
-    setTimeout(() => {
-      if (isMounted) loopAnimation();
-    }, 0);
+    // Start animation loop after the first tick
+    const timeout = setTimeout(loopAnimation, 0);
 
     return () => {
-      isMounted = false;
+      isMountedRef.current = false;
+      clearTimeout(timeout);
     };
   }, [controls, text, loopDelay]);
 
