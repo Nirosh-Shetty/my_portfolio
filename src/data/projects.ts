@@ -30,8 +30,8 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     href: "/projects",
     tags: ["Next.js", "TypeScript", "NextAuth", "Zod", "MongoDB"],
     image: {
-      LIGHT: "/images/projects/kanbanLight.webp",
-      DARK: "/images/projects/kanbanDark.webp",
+      LIGHT: "/images/projects/anonymousMessenger/messengerDashboard.webp",
+      DARK: "/images/projects/anonymousMessenger/messengerDashboard.webp",
     },
   },
 ];
@@ -39,7 +39,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
 export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "Personal Finance",
-    favicon: "/images/projects/logos/jsontree.ico",
+    favicon: "/images/projects/logos/PersonalFinance.ico",
     imageUrl: [
       "/images/projects/PersonalFinance/FinanceStats.webp",
       "/images/projects/PersonalFinance/FinanceAddExpense.webp",
@@ -56,7 +56,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   },
   {
     name: "College Academic Management",
-    favicon: "/images/projects/logos/manygames.ico",
+    favicon: "/images/projects/logos/AcademicManagementSystem.ico",
     imageUrl: [
       "/images/projects/AcademicManagementSystem/AcademicAdminDashboardLight.webp",
       "/images/projects/AcademicManagementSystem/AcademicAttendance.webp",
@@ -72,11 +72,11 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   },
   {
     name: "Anonymous Messenger",
-    favicon: "/images/projects/logos/kanban.ico",
+    favicon: "/images/projects/logos/anonymousMessenger.ico",
     imageUrl: [
-      "/images/projects/kanbanLight.webp",
-      "/images/projects/kanbanDark.webp",
-      "/images/projects/kanbanCardLight.webp",
+      "/images/projects/anonymousMessenger/messengerDashboard.webp",
+      "/images/projects/anonymousMessenger/messengerHome.webp",
+      "/images/projects/anonymousMessenger/messengerSendMessages.webp",
     ],
     description:
       "Send and receive anonymous messages securely. Built with MERN, Next.js, TypeScript, Zod for schema validation, and NextAuth for authentication.",
