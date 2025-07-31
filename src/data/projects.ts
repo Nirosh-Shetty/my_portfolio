@@ -1,6 +1,6 @@
 import { type ProjectCardProps } from "@/components/projects/project-card";
 import { type ProjectShowcaseListItem } from "@/components/projects/project-showcase-list";
-import { siteMetadata } from "@/data/siteMetaData.mjs";
+// import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
@@ -84,15 +84,17 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     // liveWebsiteHref: "https://anonymous-messenger.vercel.app", // update with real URL
   },
   {
-    name: "My portfolio",
+    name: "Ciny",
     favicon: "/favicon.ico",
     imageUrl: [
-      "/images/projects/portfolioDark.webp",
-      "/images/projects/portfolioLight.webp",
+      "/images/projects/ciny/cinyHome.webp",
+      "/images/projects/ciny/cinySlider.webp",
+      "/images/projects/ciny/cinyTestimonials.webp",
+      "/images/projects/ciny/cinyIntructor.webp",
     ],
     description:
-      "My personal portfolio website made using Nextjs, tailwindcss and framer motion.",
+      "A simple filmmaking course platform built with Next.js, TypeScript, and Acernity UI. Easily browse courses, view instructors, and start learning filmmaking online.",
     sourceCodeHref: "https://github.com/BUMBAIYA/amitchauhan-v2",
-    liveWebsiteHref: siteMetadata.siteUrl,
+    // liveWebsiteHref: siteMetadata.siteUrl,
   },
 ];
