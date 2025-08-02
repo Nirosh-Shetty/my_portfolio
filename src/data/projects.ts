@@ -94,7 +94,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     ],
     description:
       "A simple filmmaking course platform built with Next.js, TypeScript, and Acernity UI. Easily browse courses, view instructors, and start learning filmmaking online.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/amitchauhan-v2",
+    sourceCodeHref: "https://github.com/Nirosh-Shetty/Ciny",
     // liveWebsiteHref: siteMetadata.siteUrl,
   },
 ];
