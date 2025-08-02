@@ -18,6 +18,5 @@ export const siteMetadata = {
   // twitter: "https://twitter.com/NiroshShetty",
   linkedin: "https://www.linkedin.com/in/nirosh-shetty/",
   locale: "en-US",
-  // googleSiteVerification: "_YJlO90eSoye2AQOhbkRAzNbejzCGiTgAD4RNR3NtHc",
-  googleSiteVerification: "iXSL06hP2C1MRhSGPcMj7d0dna2r5dmXAI0g0MIAZes",
+  googleSiteVerification: "0K0A9VvoLtKbXM7oEjeZ153gh0l-sWj3KeSh3rqUVjQ",
 };
