@@ -40,9 +40,9 @@ public/              # Static assets (images, icons, resume)
 ## 📸 Screenshots
 
 - **Landing Page**  
-  ![Landing Hero](./public/static/aboutPage.png)
-- **About Section**  
    ![Projects](./public/static/landingPage.png)
+- **About Section**  
+  ![Landing Hero](./public/static/aboutPage.png)
 - **Projects Section**  
   ![Projects](./public/static/projectPage.png)
 
