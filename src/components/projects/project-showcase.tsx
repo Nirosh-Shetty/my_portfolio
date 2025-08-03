@@ -102,8 +102,11 @@ export default function ProjectShowcase(props: ProjectShowcaseProps) {
                 >
                   {proj.title}
                 </span> */}
-                <span className="-underline-offset-1 text-xl font-semibold text-accent no-underline transition-colors duration-300 sm:text-2xl  md:text-3xl lg:hidden">
-                  {proj.index + 1}. {proj.title}
+                <span className="text-xl font-semibold text-accent transition-colors duration-300 sm:text-2xl md:text-3xl lg:hidden">
+                  {proj.index + 1}.{" "}
+                  <span className="underline underline-offset-1">
+                    {proj.title}
+                  </span>
                 </span>
               </div>
               <p className="flex max-w-xl flex-wrap gap-2 text-base font-semibold text-accent-foreground sm:text-lg">
