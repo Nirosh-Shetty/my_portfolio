@@ -10,14 +10,14 @@ export default function About() {
   return (
     <>
       <NextSeo
-        title="About Nirosh Shetty | Software Developer"
-        description="Learn more about Nirosh Shetty, a dedicated Software Developer with 2 years of experience. Discover the journey, skills, and passion that drive me to create innovative and user-friendly web solutions."
+        title="About Nirosh Shetty | Software Engineer"
+        description="Learn more about Nirosh Shetty, a software engineer passionate about clean code and purposeful products. Explore his background, skills, and professional journey."
         canonical={`${siteMetadata.siteUrl}/about`}
         openGraph={{
           url: `${siteMetadata.siteUrl}/about`,
-          title: "Learn About Nirosh Shetty - Software Developer",
+          title: "About Nirosh Shetty - Software Engineer",
           description:
-            "Dive into the story of Nirosh Shetty, a Software Developer. Uncover the experiences, skills, and passion that fuel a commitment to delivering exceptional web solutions.",
+            "Explore the background and development journey of Nirosh Shetty — a software engineer focused on building impactful digital solutions using modern web technologies.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
@@ -34,7 +34,7 @@ export default function About() {
           {
             property: "keywords",
             content:
-              "Software Developer portfolio, Software Developer, React Developer, Frontend Developer, Web Developer, JavaScript, HTML, CSS, Professional Journey, Skills, Passion for Web Development",
+              "Nirosh Shetty, Software Engineer Portfolio, Developer Story, React Developer, Web Developer, JavaScript, Professional Background, Skills Showcase, Experience Timeline, Career Journey",
           },
         ]}
       />

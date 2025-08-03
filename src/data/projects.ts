@@ -85,7 +85,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   },
   {
     name: "Ciny",
-    favicon: "/favicon.ico",
+    favicon: "/images/projects/logos/ciny.ico",
     imageUrl: [
       "/images/projects/ciny/cinyHome.webp",
       "/images/projects/ciny/cinySlider.webp",

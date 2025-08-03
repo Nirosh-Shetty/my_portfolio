@@ -10,7 +10,7 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
     date: "2021 – 2025",
     location: "Bengaluru, Karnataka",
     description:
-      "Focused on software engineering, web technologies, and full-stack development. CGPA: 7.75",
+      "Focused on subjects like Data Structures & Algorithms, Object-Oriented Programming, Operating Systems, Computer Networks, Web Technologies, Cryptography, and more. CGPA: 7.75",
   },
   {
     title: "Pre-University Course (Class XII) – Science (PCMC)",
@@ -21,7 +21,7 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
     date: "2019 – 2021",
     location: "Udupi, Karnataka",
     description:
-      "Completed KSEEB Class XII with 92%. Developed interest in computer science and problem solving.",
+      "Completed KSEEB Class XII with 92% (PCMC – Physics, Chemistry, Mathematics, Computer Science). Developed a strong interest in computer science and problem-solving during this time.",
   },
   {
     title: "Secondary School (Class X)",

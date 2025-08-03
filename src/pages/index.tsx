@@ -1,5 +1,4 @@
 import Head from "next/head";
-
 import { NextSeo } from "next-seo";
 
 import LandingHero from "@/components/landing-hero";
@@ -13,18 +12,18 @@ export default function Home() {
   return (
     <>
       <NextSeo
-        title="Nirosh Shetty | Software Developer"
-        description="Explore the professional portfolio of Nirosh Shetty, a skilled Software Developer with 2 years of hands-on experience. Discover innovative projects, expertise in modern web technologies, and a passion for creating seamless user experiences."
+        title="Nirosh Shetty | Software Engineer"
+        description="Welcome to the portfolio of Nirosh Shetty, a software engineer passionate about building useful web applications. Explore projects, skills, and experiences crafted with React, Next.js, TypeScript, and more."
         canonical={siteMetadata.siteUrl}
         openGraph={{
           url: siteMetadata.siteUrl,
-          title: "Nirosh Shetty - Software Developer",
+          title: "Nirosh Shetty - Software Engineer",
           description:
-            "Dive into the world of web development with Nirosh Shetty. Discover a Software Developer with 2 years of expertise, showcasing cutting-edge projects and a commitment to crafting exceptional user interfaces.",
+            "Discover the work of Nirosh Shetty — a software engineer exploring clean design, functional apps, and modern web technologies. View personal and professional projects built with the MERN stack and beyond.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
-              alt: "Nirosh Shetty - Portfolio Image",
+              alt: "Nirosh Shetty - Portfolio Preview",
             },
           ],
           siteName: siteMetadata.siteName,
@@ -37,7 +36,7 @@ export default function Home() {
           {
             property: "keywords",
             content:
-              "React Developer, Software Developer, Frontend Developer, Web Developer, JavaScript, HTML, CSS, Portfolio, UI/UX, React.js, Frontend Development, Web Development, JavaScript Developer, Responsive Design",
+              "Nirosh Shetty, Software Engineer Portfolio, React Developer, MERN Stack, TypeScript, JavaScript Developer, Next.js, Web Development, Personal Projects, Full Stack Developer, Frontend Developer, Backend Developer, Web Applications, Software Development",
           },
         ]}
       />

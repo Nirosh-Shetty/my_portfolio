@@ -144,8 +144,8 @@ export default function LandingHero() {
   );
 }
 
+// import { useEffect, useRef } from "react";
 import { useAnimationControls } from "framer-motion";
-// import { useEffect } from "react";
 
 export const sentenceVariants = {
   hidden: {},
@@ -180,10 +180,10 @@ export const Typewriter = ({
   useEffect(() => {
     isMountedRef.current = true;
 
-    let cancelled = false;
+    let frameId: number;
 
     const loopAnimation = async () => {
-      while (isMountedRef.current && !cancelled) {
+      while (isMountedRef.current) {
         await controls.start("visible");
         await new Promise((res) => setTimeout(res, loopDelay));
         await controls.start("hidden");
@@ -191,11 +191,12 @@ export const Typewriter = ({
       }
     };
 
-    loopAnimation();
+    // Use requestAnimationFrame to ensure mount
+    frameId = requestAnimationFrame(loopAnimation);
 
     return () => {
       isMountedRef.current = false;
-      cancelled = true;
+      cancelAnimationFrame(frameId);
     };
   }, [controls, text, loopDelay]);
 

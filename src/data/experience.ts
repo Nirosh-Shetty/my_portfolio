@@ -10,7 +10,7 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
     date: "Apr 2025 – Present",
     location: "On-Site",
     description:
-      "Training in STLC, SDLC, and Python. Working in Agile using Jira for task tracking and sprint management.",
+      "Working in an Agile environment with hands-on experience in STLC, SDLC, and Python. Involved in task tracking, sprint planning, and issue management using Jira.",
   },
   {
     title: "Software Engineer Intern",
@@ -21,7 +21,7 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
     date: "Nov 2024 – Jan 2025",
     location: "On-site",
     description:
-      "Worked on Prexo and DealsDray apps using MERN stack. Used Studio3T, SVN, MUI. Fixed bugs and optimized performance.",
+      "Worked on Prexo (a warehouse management system) and DealsDray (an e-commerce platform) apps using MERN stack. Used Studio3T, SVN, MUI. Fixed bugs and optimized performance.",
   },
   {
     title: "Front-End Developer Intern",

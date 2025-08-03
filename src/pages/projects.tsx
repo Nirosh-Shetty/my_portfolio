@@ -8,14 +8,14 @@ export default function Projects() {
   return (
     <>
       <NextSeo
-        title="Projects by Nirosh Shetty - Software Developer Portfolio"
-        description="Explore a collection of projects by Nirosh Shetty, a seasoned Software Developer. From innovative web applications to responsive interfaces, discover the depth and diversity of my work."
+        title="Projects by Nirosh Shetty - Software Engineer Portfolio"
+        description="Explore a collection of projects by Nirosh Shetty, a passionate Software Engineer. From academic tools to real-world applications, discover how I turn ideas into practical digital experiences."
         canonical={`${siteMetadata.siteUrl}/projects`}
         openGraph={{
           url: `${siteMetadata.siteUrl}/projects`,
-          title: "Discover Projects by Nirosh Shetty - Software Developer",
+          title: "Explore Projects by Nirosh Shetty - Software Engineer",
           description:
-            "Explore a showcase of projects crafted by Nirosh Shetty, a Software Developer. Witness the fusion of creativity and technology in web development.",
+            "Discover projects crafted by Nirosh Shetty using React, Next.js, TypeScript, and the MERN stack. From e-commerce tools to academic platforms, explore my development journey.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
@@ -32,7 +32,7 @@ export default function Projects() {
           {
             property: "keywords",
             content:
-              "Projects,Nirosh Portfolio, Software Developer, React Developer, Frontend Developer, Web Development, JavaScript, HTML, CSS, UI/UX, Web Applications, Responsive Design",
+              "Nirosh Shetty Projects, Software Engineer Portfolio, React Developer, MERN Stack, Full Stack Developer, Academic Tools, E-commerce Platforms, Web Development, JavaScript, TypeScript, Next.js",
           },
         ]}
       />
@@ -56,14 +56,14 @@ export default function Projects() {
               I’m not just building apps — I’m building myself. One project at a
               time.
             </span>
-            <p className="mt-5 text-base md:text-xl">
-              Let’s connect or explore my code on{" "}
+            <p className="md:text-l mt-5 text-base">
+              Visit my github to see some of the latest projects{" "}
               <a
                 href={`${siteMetadata.github}?tab=repositories`}
                 target="_blank"
                 className="font-semibold text-accent underline underline-offset-2 hover:text-accent/70"
               >
-                Github
+                GitHub
               </a>
             </p>
           </div>
