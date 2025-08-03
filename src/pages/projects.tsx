@@ -59,7 +59,8 @@ export default function Projects() {
             <p className="md:text-l mt-5 text-base">
               Visit my github to see some of the latest projects{" "}
               <a
-                href={`${siteMetadata.github}?tab=repositories`}
+                href={`${siteMetadata.github}`}
+                // href={`${siteMetadata.github}?tab=repositories`}
                 target="_blank"
                 className="font-semibold text-accent underline underline-offset-2 hover:text-accent/70"
               >
