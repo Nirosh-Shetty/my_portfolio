@@ -81,7 +81,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     description:
       "Send and receive anonymous messages securely. Built with MERN, Next.js, TypeScript, Zod for schema validation, and NextAuth for authentication.",
     sourceCodeHref: "https://github.com/Nirosh-Shetty/Anonymous-Messenger", // update with real link
-    // liveWebsiteHref: "https://anonymous-messenger.vercel.app", // update with real URL
+    liveWebsiteHref: "https://anonymous-messengers.vercel.app", // update with real URL
   },
   {
     name: "Ciny",
