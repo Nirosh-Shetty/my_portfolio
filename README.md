@@ -81,5 +81,7 @@ public/              # Static assets (images, icons, resume)
 <!-- **Made with ❤️ by Nirosh Shetty** -->
 
 > **Credit:**  
-> This portfolio is heavily inspired by [Amit Chauhan](https://github.com/BUMBAIYA)'s project.  
-> I made a few modifications and customizations to suit my own style
+> This portfolio project was originally created by [Amit Chauhan](https://github.com/BUMBAIYA).    
+> I have **modified and customized** it to reflect my own style, projects, and personal details.
+
+
