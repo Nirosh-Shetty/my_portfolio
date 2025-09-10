@@ -1,15 +1,17 @@
 import { useEffect, useRef, useState } from "react";
+import { GithubIcon, LinkedinIcon } from "@/components/icons";
+import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 import { AnimatePresence, motion } from "framer-motion";
 
 import FadeUp from "@/animation/fade-up";
 // import { GithubIcon, LinkedinIcon } from "./icons";
-import { Download, Mail } from "lucide-react";
-import ContactFormModal from "./contact-form/contact-form-modal";
+import { Download } from "lucide-react";
+// import ContactFormModal from "./contact-form/contact-form-modal";
 
 export default function LandingHero() {
   const [scrollY, setScrollY] = useState(0);
-  const [isOpenModal, setIsOpenModal] = useState(false);
+  // const [isOpenModal, setIsOpenModal] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
 
   let progress = 0;
@@ -57,7 +59,7 @@ export default function LandingHero() {
               <div className="z-50 mt-8 max-w-3xl text-base font-semibold text-zinc-900 dark:text-zinc-200 sm:text-base md:text-xl">
                 <div className="flex items-center justify-start gap-2">
                   {" "}
-                  <button
+                  {/* <button
                     aria-label="open send mail modal"
                     type="button"
                     onClick={() => setIsOpenModal(true)}
@@ -65,12 +67,28 @@ export default function LandingHero() {
                   >
                     <Mail className="scale-90" />
                     Contact Me
-                  </button>
+                  </button> */}
+                  <a
+                    href={siteMetadata.github}
+                    target="_blank"
+                    className="flex h-10 w-12 items-center justify-center gap-3 rounded-lg bg-accent p-2 text-sm text-background transition-colors duration-150 hover:bg-accent/80 sm:p-3"
+                    aria-label="link to Github"
+                  >
+                    <GithubIcon />
+                  </a>
+                  <a
+                    href={siteMetadata.linkedin}
+                    target="_blank"
+                    className="flex h-10 w-12 items-center justify-center gap-3 rounded-lg bg-accent p-2 text-sm text-background transition-colors duration-150 hover:bg-accent/80 sm:p-3"
+                    aria-label="link to Linkedin"
+                  >
+                    <LinkedinIcon />
+                  </a>
                   <a
                     aria-label="open download CV modal"
                     href="/nirosh_resume.pdf"
                     download
-                    className="lg:w-50 flex h-10 w-40 items-center justify-center gap-3 rounded-lg bg-accent p-2 text-sm text-background transition-colors duration-150 hover:bg-accent/80 sm:h-10 sm:w-20 sm:p-3 lg:w-44"
+                    className="flex h-10 w-44 items-center justify-center gap-3 rounded-lg bg-accent p-2 text-sm text-background transition-colors duration-150 hover:bg-accent/80 sm:p-3 lg:w-44"
                   >
                     <Download className="scale-90" /> Download CV
                   </a>
@@ -135,10 +153,10 @@ export default function LandingHero() {
             </FadeUp>
           </AnimatePresence>
         </div>
-        <ContactFormModal
+        {/* <ContactFormModal
           showModal={isOpenModal}
           setShowModal={setIsOpenModal}
-        />
+        /> */}
       </div>
     </motion.section>
   );
