@@ -97,7 +97,7 @@ export default function LandingHero() {
                   Develop, Test and deploy...
                 </p> */}
                 <Typewriter
-                  text="Develop, Test and Deploy..."
+                  text="From Concept to Production..."
                   className="text-2x mt-6 text-muted-foreground"
                 />
                 {/* <span>
