@@ -2,12 +2,22 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
   {
+    title: "Graduate Engineer Trainee",
+    organisation: {
+      name: "HCLTech",
+      href: "https://www.hcltech.com/",
+    },
+    date: "Sept 2025 – Present",
+    location: "On-Site",
+    description: "Temporarily working with Google as a Software Tester",
+  },
+  {
     title: "Academic Trainee",
     organisation: {
       name: "HCLTech",
       href: "https://www.hcltech.com/",
     },
-    date: "Apr 2025 – Present",
+    date: "Apr 2025 – Sept 2025",
     location: "On-Site",
     description:
       "Working in an Agile environment with hands-on experience in STLC, SDLC, and Python. Involved in task tracking, sprint planning, and issue management using Jira.",
