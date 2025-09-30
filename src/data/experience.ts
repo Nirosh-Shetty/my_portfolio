@@ -9,7 +9,7 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
     },
     date: "Sept 2025 – Present",
     location: "On-Site",
-    description: "Temporarily working with Google as a Software Tester",
+    description: "Working on a Google project as part of the HCLTech team.",
   },
   {
     title: "Academic Trainee",
