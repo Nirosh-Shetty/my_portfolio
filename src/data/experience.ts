@@ -9,7 +9,7 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
     },
     date: "Sept 2025 – Present",
     location: "On-Site",
-    description: "Working on a Google project as part of the HCLTech team.",
+    description: "Working as a Software Engineer in HCLTech.",
   },
   {
     title: "Academic Trainee",
@@ -20,7 +20,7 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
     date: "Apr 2025 – Sept 2025",
     location: "On-Site",
     description:
-      "Working in an Agile environment with hands-on experience in STLC, SDLC, and Python. Involved in task tracking, sprint planning, and issue management using Jira.",
+      "Undergone training in STLC, SDLC, and Python with a focus on real-world software engineering practices. Hands-on experience with Jira for task tracking and sprint management in Agile workflows.",
   },
   {
     title: "Software Engineer Intern",
