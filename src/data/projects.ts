@@ -15,6 +15,24 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   },
   {
     index: 1,
+    title: "GoRide Microservices Platform",
+    href: "/projects",
+    tags: [
+      "Microservices",
+      "RabitMQ",
+      "Redis",
+      "Long Polling",
+      "Express.js",
+      "MongoDB",
+    ],
+    image: {
+      LIGHT:
+        "/images/projects/GoRideMicroservices/GoRideMicroservicesArchitecture.webp",
+      DARK: "/images/projects/GoRideMicroservices/GoRideMicroservicesArchitecture.webp",
+    },
+  },
+  {
+    index: 2,
     title: "College Academic Management",
     href: "/projects",
     tags: ["MERN Stack", "MUI", "TailwindCSS"],
@@ -25,7 +43,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     },
   },
   {
-    index: 2,
+    index: 3,
     title: "Anonymous Messenger",
     href: "/projects",
     tags: ["Next.js", "TypeScript", "NextAuth", "Zod", "MongoDB"],
@@ -52,6 +70,17 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     description:
       "Built a money manager app using the PERN stack. JWT for auth, Chart.js for insights, and MUI for UI. Features include transaction tracking, charts, and a finance blog.",
     sourceCodeHref: "https://github.com/Nirosh-Shetty/Personal-Finance", // update with real link
+    // liveWebsiteHref: "https://personal-finance.vercel.app", // update with real URL
+  },
+  {
+    name: "GoRide Microservices Platform",
+    favicon: "/images/projects/logos/GoRideMicroservices.ico",
+    imageUrl: [
+      "/images/projects/GoRideMicroservices/GoRideMicroservicesArchitecture.webp",
+    ],
+    description:
+      "A simple, decoupled ride-sharing application built with a microservices architecture. It features separate services for User, Captain (Driver), and Ride coordination, communicating asynchronously via RabbitMQ and accessed through a unified API Gateway.",
+    sourceCodeHref: "https://github.com/Nirosh-Shetty/GoRide-Microservices", // update with real link
     // liveWebsiteHref: "https://personal-finance.vercel.app", // update with real URL
   },
   {
