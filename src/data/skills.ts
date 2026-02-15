@@ -20,6 +20,7 @@ import JiraSvg from "@/public/icons/jira.svg";
 // Backend
 import NodejsSvg from "@/public/icons/nodejs.svg";
 import rabbitmqSvg from "@/public/icons/rabbitmq.svg";
+import Socketdotio from "@/public/icons/socket.io.svg";
 
 // Database and ORMS
 import MongoDBSvg from "@/public/icons/mongodb.svg";
@@ -117,6 +118,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "Redis",
         icon: RedisSvg,
+      },
+      {
+        name: "Socket.io",
+        icon: Socketdotio,
       },
       {
         name: "RabbitMQ",
