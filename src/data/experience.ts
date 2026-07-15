@@ -2,14 +2,26 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
   {
+    title: "Software Engineer",
+    organisation: {
+      name: "HCLTech",
+      href: "https://www.hcltech.com/",
+    },
+    date: "Jun 2025 – Present",
+    location: "Bengaluru, India",
+    description:
+      "Promoted to Software Engineer in recognition of performance and contributions on the project.",
+  },
+  {
     title: "Graduate Engineer Trainee",
     organisation: {
       name: "HCLTech",
       href: "https://www.hcltech.com/",
     },
-    date: "Sept 2025 – Present",
-    location: "On-Site",
-    description: "Working as a Software Engineer in HCLTech.",
+    date: "Sep 2024 – Apr 2025",
+    location: "Bengaluru, India",
+    description:
+      "Supported engineering operations on a medical device project through technical analysis, process improvement, cross-functional coordination, and contribution to project delivery.",
   },
   {
     title: "Academic Trainee",
@@ -17,8 +29,8 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
       name: "HCLTech",
       href: "https://www.hcltech.com/",
     },
-    date: "Apr 2025 – Sept 2025",
-    location: "On-Site",
+    date: "Apr 2025 – Sep 2025",
+    location: "Bengaluru, India",
     description:
       "Undergone training in STLC, SDLC, and Python with a focus on real-world software engineering practices. Hands-on experience with Jira for task tracking and sprint management in Agile workflows.",
   },
