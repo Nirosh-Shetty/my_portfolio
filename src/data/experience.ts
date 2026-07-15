@@ -41,7 +41,7 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
       href: "https://dealsdray.com/",
     },
     date: "Nov 2024 – Jan 2025",
-    location: "On-site",
+    location: "Bengaluru, India",
     description:
       "Worked on Prexo (a warehouse management system) and DealsDray (an e-commerce platform) apps using MERN stack. Used Studio3T, SVN, MUI. Fixed bugs and optimized performance.",
   },
